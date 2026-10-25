@@ -6,9 +6,8 @@
 
 # CSE134B HW3 - Benjamin Kettor Jr.
 
-Status: the HW3 source is in this repository. A new Netlify deployment is still
-needed. The deployed URLs in the table use the intended new project name;
-confirm them after deployment before submitting the repository link.
+Deployed on Netlify. The links in the table are confirmed live. The remaining
+manual browser checks are listed below.
 
 ## Structure
 
@@ -42,13 +41,21 @@ retained without modification.
 - All seven HTML pages and both stylesheets pass Nu HTML Checker validation.
 - The supplied cheese article produces one heading warning. Its original markup
   is retained because the assignment permits only adding the stylesheet link.
-- The portfolio's internal links and local assets resolve.
+- All seven deployed pages, both stylesheets, and referenced local assets load.
+- The deployed HTML also has zero validation errors and the same single warning.
+- Deployed stylesheets and assets match the committed files. Netlify rewrites
+  portfolio links to extensionless URLs; page content and markup otherwise match.
+- All seven pages were checked with CSS enabled in Chrome at a 1363px viewport,
+  with no page-wide horizontal scrolling.
+- Tab navigation shows visible focus through the portfolio navigation, Contact
+  fields, and the cheese page's checkboxes, text input, button, and link.
 
-## Checks to finish before submission
+## Manual checks to finish before submission
 
-- Check all seven pages with CSS enabled and disabled.
-- Check Home and Contact at approximately 375px and 1280px wide.
-- Use Tab to check visible keyboard focus through navigation and form controls.
-- Confirm the live URLs and committed files match the new deployment.
+- Check Home and Contact at approximately 375px and 1280px wide. Confirm that
+  content fits, navigation remains accessible, and controls are usable.
+- Disable CSS and check all seven pages for readable content, usable links,
+  controls, and a meaningful reading order; then re-enable CSS.
 
-Do not submit until the pending setup and browser checks are complete.
+These checks are still pending; the desktop checks above do not establish
+mobile behavior or CSS-disabled usability.
